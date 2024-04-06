@@ -1,0 +1,180 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+.navbar {
+  background-color: #141414 !important;
+}
+
+.container-fluid,
+.container {
+  width: 100%;
+}
+
+.nav-link {
+  color: #8790a1 !important;
+  font-size: 0.8rem !important;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.fa-solid:hover {
+  color: white !important;
+}
+
+.profile-img {
+  transition: transform 0.4s ease-in-out;
+}
+
+.icon1 {
+  margin-left: 1000px;
+}
+
+.social-icon {
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+.series {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.type {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.type a {
+  text-decoration: none;
+  color: white;
+}
+
+.col-12 img {
+  margin-right: 0.3rem;
+  width: 98%;
+}
+
+.row {
+  margin: 0;
+}
+
+.carousel {
+  overflow: visible !important;
+}
+
+.cf {
+  margin-top: 2rem;
+}
+
+.col-12.col-md-4.col-lg-2 {
+  transition: transform 0.4s ease-in-out;
+}
+
+.col-12.col-md-4.col-lg-2:hover {
+  transform: scale(1.1);
+}
+
+.col-12.col-md-4.col-lg-2 img:hover,
+h3:hover {
+  cursor: pointer;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  margin-top: 6rem;
+  height: 12rem;
+}
+
+.footer-box-icons {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.footer-box-links {
+  height: 100%;
+  width: 50%;
+  font-size: 0.7rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-box-links a {
+  text-decoration: none;
+  color: #8790a1;
+}
+
+.footer-box-links a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-box-icons a {
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.footer-links {
+  margin-bottom: 0.7rem;
+}
+
+.fa-brands:hover {
+  color: white !important;
+}
+
+.agg {
+  margin-top: 5rem;
+}
+
+.service-code {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.6rem;
+  width: 5.5rem;
+  height: 1.8rem;
+  color: #8790a1;
+  border: 1px solid #8790a1;
+}
+
+.copyright-notice {
+  color: #8790a1;
+  font-size: 0.6rem;
+}

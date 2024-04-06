@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page Netflix Clone</title>
+</head>
+<link rel="stylesheet" href="profilestyle.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/netflix_logo.png" alt="error" style="width: 80px;" />
+                </a>
+            </div>
+    </header>
+
+    <div class="container2">
+
+        <div class="content-box">
+            <h1>Edit Profile</h1>
+            <hr>
+            <div>
+                <div class="avatar">
+                    <img src="assets/avatar.png" alt="Profile Image" width="130px" height="180px">
+                </div>
+                <div class="space">
+                    <form>
+                        <input type="text" placeholder=" Strive Student">
+                        <div></div>
+
+
+                        <div class="dropdown">
+                            <span>Language</span>
+                            <div></div>
+                            <select>
+                                <option value="en">English</option>
+                                <option value="it">Italian</option>
+                                <option value="sp">Spanish</option>
+                                <option value="fr">French</option>
+                                <option value="po">Portuguese</option>
+                            </select>
+                        </div>
+                </div>
+                </form>
+            </div>
+            <hr class="linea">
+            <div class="right">
+                <div class="section1">
+                    <h5>Maturity settings:</h5>
+                    <div class="section">
+                        <h6> ALL MATURITY RATINGS</h6>
+                    </div>
+                    <div class="section">
+                        Show titles of all maturity ratings for this profile
+                        <div></div>
+                        <button class="button">EDIT</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="section">
+                    <div class="grey">
+                        <h4>Autoplay controls</h4>
+                        <input type="checkbox" id="autoplay1" name="autoplay1" value="autoplay1">
+                        <label for="autoplay1">Autoplay next epicode in a series on all devices</label><br>
+                        <input type="checkbox" id="autoplay2" name="autoplay2" value="autoplay2">
+                        <label for="autoplay2">Autoplay previews while browsing on all devices</label>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="button2">
+                <button class="save">Save</button>
+                <button class="button">Cancel</button>
+                <button class="button">Delete Profile</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

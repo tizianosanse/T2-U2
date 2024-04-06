@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #343a40; /* Colore di sfondo bg-dark */
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  box-sizing: border-box;
+  background-color: #1f2225;
+  width: 100%;
+  margin-left: auto;
+  float: right;
+}
+
+.content-box {
+  float: right;
+  margin-left: 30px;
+  max-width: 600px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #1f2225;
+}
+
+.space {
+  position: relative;
+  left: -140px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h5 {
+  margin-left: 7px;
+}
+
+.section h6 {
+  background-color: rgb(128, 125, 125);
+  width: 200px;
+  height: auto;
+}
+
+.linea {
+  width: 394px;
+  margin-left: 180px;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  color: white;
+  background-color: #1f2225;
+}
+
+img:first {
+  margin-right: 10px;
+}
+
+img {
+  max-width: 100px;
+  position: relative;
+  left: -94px;
+  width: auto;
+  height: auto;
+  float: left;
+  margin-right: 80px;
+  color: white;
+  background-color: #1f2225;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+form {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+  color: white;
+  background-color: #1f2225;
+}
+.dropdown {
+  display: inline-block;
+  margin-top: 10px;
+
+  color: white;
+  background-color: #1f2225;
+}
+.section {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  background-color: #1f2225;
+}
+.button {
+  margin-top: 20px;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #777;
+  background-color: #1f2225;
+  width: 140px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+span {
+  color: rgb(128, 125, 125);
+}
+
+.grey {
+  color: rgb(128, 125, 125);
+}
+
+.save {
+  background-color: white;
+  margin-top: 20px;
+  color: black;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+  width: 140px;
+}
+
+.button2 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+form input {
+  background-color: rgb(128, 125, 125);
+}
+
+form input::placeholder {
+  color: white;
+}
+
+.right {
+  margin-left: 180px;
+}
